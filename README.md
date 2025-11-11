@@ -1,0 +1,313 @@
+<h1 align="center">🚀 Portfolio-Nexus — Modern Developer Portfolio</h1>
+
+<p align="center">
+  ✨ Hi, I'm Abhishek Giri! Explore my portfolio to discover my work as a passionate developer — creating smart, creative, and impactful tech projects that turn ideas into reality.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Lucide_React-000000?style=for-the-badge&logo=lucide&logoColor=white"/>
+</p>
+<br>
+
+---
+
+## 📖 About This Portfolio
+A modern, interactive developer portfolio showcasing my journey as an AI & ML Engineering student with expertise in full-stack development, machine learning, and innovative technology solutions.
+
+<br>
+
+---
+
+## 💡 What You'll Find
+Portfolio-Nexus is a comprehensive showcase featuring:
+
+- 🎯 **25 Professional Projects** across multiple domains
+- 🏆 **10 Industry Certifications** from leading tech companies
+- 💼 **Professional Journey** and educational background
+- 🛠️ **Technical Skills** with interactive progress bars
+- 📱 **Responsive Design** with modern animations
+- 🎨 **Interactive UI/UX** with smooth transitions
+
+<br>
+
+---  
+
+## 🚀 Features
+
+✅  **Modern Design** with gradient backgrounds and animations  
+✅  **25 Featured Projects** spanning AI/ML, Web Dev, IoT, and more  
+✅  **Interactive Skills Section** with animated progress bars  
+✅  **Professional Certifications** with verification links  
+✅  **Responsive Layout** optimized for all devices  
+✅  **Smooth Animations** powered by Framer Motion  
+✅  **Fast Performance** with Vite build optimization
+
+<br>
+
+---  
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+<table>
+<thead>
+<tr>
+<th>🖥️ Technology</th>
+<th>⚙️ Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></td>
+<td>Modern frontend with component architecture</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/></td>
+<td>Type-safe JavaScript development</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/></td>
+<td>Utility-first CSS framework</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue"/></td>
+<td>Advanced animations and transitions</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/></td>
+<td>Fast build tool and development server</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Lucide_React-000000?style=for-the-badge&logo=lucide&logoColor=white"/></td>
+<td>Beautiful and consistent icons</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<br>
+
+---
+
+## 📁 Project Directory Structure
+
+```
+Portfolio-Nexus/
+├── 📂 docs/                        # 📸 Portfolio screenshots
+│   ├── 📄 Home_Page.png            # 🏠 Landing page preview
+│   ├── 📄 Professional_Profile.png # 👤 Profile section
+│   ├── 📄 Professional_Development.png # 🛤️ Journey timeline
+│   ├── 📄 Project_Page.png         # 💼 Projects showcase
+│   ├── 📄 Skills_Page.png          # 🛠️ Skills & certifications
+│   ├── 📄 About_Me.png             # ℹ️ About section
+│   └── 📄 Contact_Page.png         # 📞 Contact information
+├── 📂 public/                      # 🎨 Static assets
+│   ├── 📂 Certificates/            # 🏆 Certificate images (10 files)
+│   │   ├── 📄 Certificate1.png     # 🎓 Google Analytics
+│   │   ├── 📄 Certificate2.png     # ☁️ Oracle Cloud AI
+│   │   └── 📄 Certificate[3-9].png # 📜 More certificates
+│   ├── 📂 images/                  # 🖼️ Profile photos
+│   │   ├── 📄 Photo1.jpeg          # 📸 Professional photo 1
+│   │   ├── 📄 Photo2.jpeg          # 📸 Professional photo 2
+│   │   └── 📄 Photo3.jpeg          # 📸 Professional photo 3
+│   └── 📄 AbhishekGiriResume.pdf   # 📄 Professional resume
+├── 📂 src/                         # 💻 Source code
+│   ├── 📂 components/              # 🧩 Reusable components
+│   │   ├── 📄 Navbar.tsx           # 🔝 Navigation with icons
+│   │   ├── 📄 Footer.tsx           # 🔻 Professional footer
+│   │   └── 📄 LoadingPage.tsx      # ⏳ Loading animation
+│   ├── 📂 pages/                   # 📄 Main application pages
+│   │   ├── 📂 week/                # 📚 Soft skills weekly content
+│   │   │   ├── 📄 week1.tsx        # 📝 Week 1 content
+│   │   │   └── 📄 week[2-7].tsx    # 📝 Weekly assignments
+│   │   ├── 📄 Home.tsx             # 🏠 Hero & stats section
+│   │   ├── 📄 Journey.tsx          # 🛤️ Professional timeline
+│   │   ├── 📄 Projects.tsx         # 💼 25 project showcase
+│   │   ├── 📄 Skills.tsx           # 🛠️ Skills & 10 certificates
+│   │   ├── 📄 Contact.tsx          # 📞 Contact form
+│   │   ├── 📄 SoftSkills.tsx       # 🧠 Soft skills overview
+│   │   └── 📄 SoftSkillsWeek.tsx   # 📅 Weekly soft skills
+│   ├── 📄 App.tsx                  # 🚀 Main application router
+│   ├── 📄 main.tsx                 # 🎯 React entry point
+│   ├── 📄 App.css                  # 🎨 Component styles
+│   ├── 📄 index.css                # 🎨 Global Tailwind styles
+│   └── 📄 vite-env.d.ts            # 🔧 TypeScript definitions
+├── 📄 .gitignore                   # 🚫 Git ignore rules
+├── 📄 package.json                 # 📦 Dependencies & scripts
+├── 📄 vite.config.ts               # ⚙️ Vite build configuration
+├── 📄 tailwind.config.js           # 🎨 Tailwind CSS config
+├── 📄 tsconfig.json                # 🔧 TypeScript configuration
+├── 📄 vercel.json                  # 🌐 Vercel deployment config
+└── 📄 README.md                    # 📖 Project documentation
+```
+<br>
+
+---
+
+## 📸 Portfolio Screenshots
+
+| 📍 Page / Section           | 📸 Preview                                                 |
+|:----------------------------|:-----------------------------------------------------------|
+| Home Page                   | ![Home Page](docs/Home_Page.png)                          |
+| About Me Section            | ![About Me](docs/About_Me.png)                            |
+| Professional Profile        | ![Professional Profile](docs/Professional_Profile.png)    |
+| Skills & Certifications     | ![Skills Page](docs/Skills_Page.png)                      |
+| Professional Development    | ![Journey Timeline](docs/Professional_Development.png)    |
+| Projects Showcase           | ![Projects Page](docs/Project_Page.png)                   |
+| Contact Information         | ![Contact Page](docs/Contact_Page.png)                    |
+
+<br>
+
+---
+
+## 📦 How to Run
+
+### 📌 Prerequisites
+- ✅ **Node.js 18+** installed
+- ✅ **npm or yarn** package manager
+
+<br>
+
+---  
+
+### 🚀 Quick Start
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AbhishekGiri04/Portfolio-Nexus.git
+   cd Portfolio-Nexus
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open in browser:
+
+   ```
+   http://localhost:5173
+   ```
+
+### 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+### 🔍 Preview Production Build
+
+```bash
+npm run preview
+```
+
+<br>
+
+---
+
+## 📖 Core Components
+
+* **Navbar.tsx** — Responsive navigation with icons and animations
+* **Home.tsx** — Hero section with professional introduction
+* **Journey.tsx** — Educational background and career timeline
+* **Projects.tsx** — Showcase of 25 professional projects
+* **Skills.tsx** — Interactive skills with certifications
+* **Footer.tsx** — Professional links and contact information
+
+<br>
+
+---
+
+
+
+## 🏆 Certifications Showcase
+
+- **Google Analytics** — Google Digital Academy
+- **Oracle Cloud AI** — Oracle Certified Associate
+- **JavaScript** — GeeksforGeeks
+- **iOS Development** — GeeksforGeeks
+- **MongoDB** — GeeksforGeeks Developer's Toolkit
+- **AWS Solutions Architecture** — Forage Job Simulation
+- **Data Analytics** — Deloitte Australia (Forage)
+- **Google Cloud** — Simplilearn
+- **Data Mining** — NPTEL
+- **AWS Certifications** — Amazon Web Services
+
+<br>
+
+---
+
+## 📊 Portfolio Metrics
+
+- **25 Projects** — Comprehensive project portfolio
+- **10 Certifications** — Industry-recognized credentials
+- **6 Tech Categories** — Diverse technical expertise
+- **2+ Years Experience** — Continuous development journey
+- **99% Uptime** — Reliable and fast performance
+
+<br>
+
+---
+
+## 🌱 Future Enhancements
+- 📱 **Mobile App Version** — React Native portfolio app
+- 🌍 **Multi-language Support** — Internationalization
+- 📊 **Analytics Dashboard** — Visitor insights and metrics
+- 🔐 **Admin Panel** — Dynamic content management
+- 🎨 **Theme Customization** — Dark/light mode toggle
+
+<br>
+
+---  
+
+## 📞 Connect With Me  
+
+> 💬 *Interested in collaboration or have questions about my work?*  
+> Let's connect and explore opportunities together!
+
+<div align="center">
+
+**👤 Abhishek Giri**  
+*AI & ML Engineering Student | Full-Stack Developer*
+
+<a href="https://www.linkedin.com/in/abhishek-giri04/">
+  <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn - Abhishek Giri"/>
+</a>  
+<a href="https://github.com/abhishekgiri04">
+  <img src="https://img.shields.io/badge/Follow%20on-GitHub-black?style=for-the-badge&logo=github" alt="GitHub - Abhishek Giri"/>
+</a>  
+<a href="mailto:abhishekgiri1978@gmail.com">
+  <img src="https://img.shields.io/badge/Email-abhishekgiri1978@gmail.com-red?style=for-the-badge&logo=gmail" alt="Email - Abhishek Giri"/>
+</a>
+
+<br/>
+
+---
+
+**🚀 Built with ❤️ and Modern Web Technologies**  
+*Showcasing Innovation Through Code*
+
+</div>
+
+---
+
+<div align="center">
+
+**© 2025 Abhishek Giri. All Rights Reserved.**
+
+</div>
