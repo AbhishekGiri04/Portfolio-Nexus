@@ -117,6 +117,7 @@ Portfolio-Nexus/
 │   │   ├── 📄 Photo1.jpeg          # 📸 Professional photo 1
 │   │   ├── 📄 Photo2.jpeg          # 📸 Professional photo 2
 │   │   └── 📄 Photo3.jpeg          # 📸 Professional photo 3
+│   ├── 📄 _redirects               # 🔄 Netlify SPA routing
 │   └── 📄 AbhishekGiriResume.pdf   # 📄 Professional resume
 ├── 📂 src/                         # 💻 Source code
 │   ├── 📂 components/              # 🧩 Reusable components
@@ -139,7 +140,10 @@ Portfolio-Nexus/
 │   ├── 📄 App.css                  # 🎨 Component styles
 │   ├── 📄 index.css                # 🎨 Global Tailwind styles
 │   └── 📄 vite-env.d.ts            # 🔧 TypeScript definitions
+├── 📄 .env.example                 # 🔐 Environment variables template
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
+├── 📄 .nvmrc                       # 📦 Node.js version for deployment
+├── 📄 netlify.toml                 # 🌐 Netlify deployment config
 ├── 📄 package.json                 # 📦 Dependencies & scripts
 ├── 📄 vite.config.ts               # ⚙️ Vite build configuration
 ├── 📄 tailwind.config.js           # 🎨 Tailwind CSS config
@@ -215,6 +219,15 @@ npm run build
 ```bash
 npm run preview
 ```
+
+### 🌐 Deploy to Netlify
+
+1. **Connect GitHub Repository** to Netlify
+2. **Build Settings:**
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+3. **Environment Variables:** Add your `.env` variables in Netlify dashboard
+4. **Deploy!** - Automatic deployments on every push
 
 <br>
 
