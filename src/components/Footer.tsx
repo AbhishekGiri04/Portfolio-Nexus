@@ -1,4 +1,4 @@
-import { Github, Instagram, Linkedin, Mail, Twitter, Heart, ArrowUp, MapPin, Briefcase, User, Code, MessageCircle, Award } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail, Twitter, Heart, ArrowUp, MapPin, Briefcase, User, Code, MessageCircle, Award, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
@@ -53,6 +53,13 @@ function Footer() {
       icon: Instagram,
       color: 'hover:text-pink-500',
       bg: 'hover:bg-pink-50'
+    },
+    {
+      name: 'Website',
+      href: 'https://agnix.netlify.app',
+      icon: Globe,
+      color: 'hover:text-indigo-600',
+      bg: 'hover:bg-indigo-50'
     }
   ];
 

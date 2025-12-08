@@ -35,7 +35,7 @@ function Home() {
   const stats = [
     { 
       label: "Projects", 
-      value: "25", 
+      value: "30", 
       icon: <FolderOpen className="w-8 h-8" />, 
       gradient: "from-blue-500 to-cyan-600",
       bgPattern: "from-blue-50 to-cyan-50",
@@ -126,9 +126,7 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="text-xl md:text-2xl text-gray-400 max-w-5xl mx-auto leading-relaxed mb-12 font-light"
             >
-              Passionate about <span className="text-white font-medium">building innovative AI solutions</span> and 
-              developing scalable web applications. Dedicated to transforming complex challenges into 
-              <span className="text-emerald-400 font-medium"> elegant, user-friendly experiences</span> that drive meaningful impact.
+              Pre-final year <span className="text-white font-medium">B.Tech CSE (AI & ML)</span> student at Graphic Era Hill University with <span className="text-emerald-400 font-medium">2+ years of experience</span> in Python, SQL, DBMS, web development, IoT, and cloud platforms. Skilled in building <span className="text-white font-medium">scalable full-stack applications</span> and intelligent AI/ML solutions using deep learning and automation. Results-driven problem solver passionate about creating <span className="text-emerald-400 font-medium">impactful, user-centric engineering solutions</span>.
             </motion.p>
             
             {/* CTA Buttons */}
@@ -175,7 +173,7 @@ function Home() {
               transition={{ duration: 0.8, delay: 1.2 }}
               className="flex flex-wrap justify-center gap-4 max-w-2xl mx-auto"
             >
-              {['Python', 'C++', 'Java', 'React.js', 'Node.js'].map((tech, index) => (
+              {['Python', 'C++', 'Java', 'Javascript', 'SQL'].map((tech, index) => (
                 <motion.span
                   key={tech}
                   initial={{ opacity: 0, scale: 0.8 }}
@@ -326,9 +324,7 @@ function Home() {
             <h2 className="text-4xl font-bold text-gray-900 mb-6">About Me</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              As an AI & ML Engineering student with a passion for cutting-edge technology, I specialize in developing intelligent solutions 
-              that bridge the gap between theoretical concepts and real-world applications. My expertise spans machine learning algorithms, 
-              data analysis, and full-stack development, enabling me to create comprehensive solutions from concept to deployment.
+              AI & ML Engineering student passionate about leveraging cutting-edge technologies to transform complex ideas into intelligent, real-world solutions. Skilled in machine learning algorithms, data analysis, and full-stack development, delivering end-to-end solutions from concept to deployment. Driven by innovation and impact, creating scalable, user-centric applications that seamlessly bridge theory and practical implementation.
             </p>
           </motion.div>
 
@@ -344,7 +340,7 @@ function Home() {
                 <img 
                   src={`/images/Photo${num}.jpeg`} 
                   alt={`Photo ${num}`} 
-                  className="w-full h-80 object-cover object-top group-hover:scale-105 transition-transform duration-300" 
+                  className={`w-full h-80 object-cover ${num === 1 ? 'object-[center_20%] scale-125' : num === 3 ? 'object-[center_20%]' : 'object-top'} group-hover:scale-105 transition-transform duration-300`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>

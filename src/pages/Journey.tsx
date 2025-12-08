@@ -51,7 +51,7 @@ function Journey() {
     },
     {
       title: "Project Portfolio",
-      description: "25+ completed projects showcasing full-stack development and AI implementation capabilities",
+      description: "30+ completed projects showcasing full-stack development and AI implementation capabilities",
       icon: <Target className="w-8 h-8" />,
       gradient: "from-emerald-500 to-cyan-600"
     },
@@ -135,7 +135,7 @@ function Journey() {
               </p>
 
               <p className="mb-6">
-                With <strong>2+ years of development experience</strong>, I have successfully completed <strong>25 comprehensive projects</strong>
+                With <strong>2+ years of development experience</strong>, I have successfully completed <strong>30 comprehensive projects </strong>
                 spanning full-stack web development, artificial intelligence, and machine learning applications. My technical expertise 
                 includes proficiency in <strong>Python, C++, Java, React.js, and Node.js</strong>, complemented by hands-on experience 
                 with modern AI/ML frameworks and cloud technologies.

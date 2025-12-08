@@ -26,7 +26,7 @@ A modern, interactive developer portfolio showcasing my journey as an AI & ML En
 ## 💡 What You'll Find
 Portfolio-Nexus is a comprehensive showcase featuring:
 
-- 🎯 **25 Professional Projects** across multiple domains
+- 🎯 **34 Professional Projects** across multiple domains
 - 🏆 **10 Industry Certifications** from leading tech companies
 - 💼 **Professional Journey** and educational background
 - 🛠️ **Technical Skills** with interactive progress bars
@@ -40,7 +40,7 @@ Portfolio-Nexus is a comprehensive showcase featuring:
 ## 🚀 Features
 
 ✅  **Modern Design** with gradient backgrounds and animations  
-✅  **25 Featured Projects** spanning AI/ML, Web Dev, IoT, and more  
+✅  **34 Featured Projects** spanning AI/ML, Web Dev, IoT, and more  
 ✅  **Interactive Skills Section** with animated progress bars  
 ✅  **Professional Certifications** with verification links  
 ✅  **Responsive Layout** optimized for all devices  
@@ -109,10 +109,16 @@ Portfolio-Nexus/
 │   ├── 📄 About_Me.png             # ℹ️ About section
 │   └── 📄 Contact_Page.png         # 📞 Contact information
 ├── 📂 public/                      # 🎨 Static assets
-│   ├── 📂 Certificates/            # 🏆 Certificate images (10 files)
+│   ├── 📂 Certificates/            # 🏆 Certificate images (9 files)
 │   │   ├── 📄 Certificate1.png     # 🎓 Google Analytics
 │   │   ├── 📄 Certificate2.png     # ☁️ Oracle Cloud AI
-│   │   └── 📄 Certificate[3-9].png # 📜 More certificates
+│   │   ├── 📄 Certificate3.png     # 💻 JavaScript
+│   │   ├── 📄 Certificate4.png     # 📱 iOS Development
+│   │   ├── 📄 Certificate5.png     # 🗄️ MongoDB
+│   │   ├── 📄 Certificate6.png     # ☁️ AWS Solutions Architecture
+│   │   ├── 📄 Certificate7.png     # 📊 Deloitte Data Analytics
+│   │   ├── 📄 Certificate8.png     # ☁️ Google Cloud
+│   │   └── 📄 Certificate9.png     # 📚 Data Mining NPTEL
 │   ├── 📂 images/                  # 🖼️ Profile photos
 │   │   ├── 📄 Photo1.jpeg          # 📸 Professional photo 1
 │   │   ├── 📄 Photo2.jpeg          # 📸 Professional photo 2
@@ -130,7 +136,7 @@ Portfolio-Nexus/
 │   │   │   └── 📄 week[2-7].tsx    # 📝 Weekly assignments
 │   │   ├── 📄 Home.tsx             # 🏠 Hero & stats section
 │   │   ├── 📄 Journey.tsx          # 🛤️ Professional timeline
-│   │   ├── 📄 Projects.tsx         # 💼 25 project showcase
+│   │   ├── 📄 Projects.tsx         # 💼 34 project showcase
 │   │   ├── 📄 Skills.tsx           # 🛠️ Skills & 10 certificates
 │   │   ├── 📄 Contact.tsx          # 📞 Contact form
 │   │   ├── 📄 SoftSkills.tsx       # 🧠 Soft skills overview
@@ -140,15 +146,18 @@ Portfolio-Nexus/
 │   ├── 📄 App.css                  # 🎨 Component styles
 │   ├── 📄 index.css                # 🎨 Global Tailwind styles
 │   └── 📄 vite-env.d.ts            # 🔧 TypeScript definitions
-├── 📄 .env.example                 # 🔐 Environment variables template
+├── 📄 eslint.config.js             # 🔍 ESLint configuration
+├── 📄 index.html                   # 🌐 HTML entry point
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
-├── 📄 .nvmrc                       # 📦 Node.js version for deployment
 ├── 📄 netlify.toml                 # 🌐 Netlify deployment config
 ├── 📄 package.json                 # 📦 Dependencies & scripts
+├── 📄 package-lock.json            # 🔒 Dependency lock file
+├── 📄 postcss.config.js            # 🎨 PostCSS configuration
 ├── 📄 vite.config.ts               # ⚙️ Vite build configuration
 ├── 📄 tailwind.config.js           # 🎨 Tailwind CSS config
 ├── 📄 tsconfig.json                # 🔧 TypeScript configuration
-├── 📄 vercel.json                  # 🌐 Vercel deployment config
+├── 📄 tsconfig.app.json            # 🔧 TypeScript app config
+├── 📄 tsconfig.node.json           # 🔧 TypeScript node config
 └── 📄 README.md                    # 📖 Project documentation
 ```
 <br>
@@ -267,7 +276,7 @@ npm run preview
 
 ## 📊 Portfolio Metrics
 
-- **25 Projects** — Comprehensive project portfolio
+- **34 Projects** — Comprehensive project portfolio
 - **10 Certifications** — Industry-recognized credentials
 - **6 Tech Categories** — Diverse technical expertise
 - **2+ Years Experience** — Continuous development journey
