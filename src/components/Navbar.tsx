@@ -20,17 +20,17 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="fixed w-full z-50 bg-white shadow-lg border-b border-gray-200">
+    <nav className="fixed w-full z-50 bg-slate-900/95 backdrop-blur-md shadow-2xl border-b border-blue-500/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3">
               <img 
-                src="https://www.creativefabrica.com/wp-content/uploads/2022/12/05/AG-GA-initial-logo-brand-letter-design-v-Graphics-50456674-1-1-580x386.jpg" 
+                src="/images/AG.png" 
                 alt="AG Logo" 
                 className="w-12 h-12 object-contain rounded-xl shadow-lg"
               />
-              <span className="font-bold text-xl text-gray-900">
+              <span className="font-bold text-xl text-white">
                 Abhishek Giri
               </span>
             </Link>
@@ -41,8 +41,8 @@ function Navbar() {
               to="/"
               className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                 isActive('/') 
-                  ? 'bg-gray-800 text-white shadow-lg' 
-                  : 'text-gray-700 hover:bg-gray-100'
+                  ? 'bg-blue-600 text-white shadow-lg' 
+                  : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
             >
               <User size={16} />
@@ -52,8 +52,8 @@ function Navbar() {
               to="/journey"
               className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                 isActive('/journey') 
-                  ? 'bg-gray-800 text-white shadow-lg' 
-                  : 'text-gray-700 hover:bg-gray-100'
+                  ? 'bg-blue-600 text-white shadow-lg' 
+                  : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
             >
               <User size={16} />
@@ -63,8 +63,8 @@ function Navbar() {
               to="/projects"
               className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                 isActive('/projects') 
-                  ? 'bg-gray-800 text-white shadow-lg' 
-                  : 'text-gray-700 hover:bg-gray-100'
+                  ? 'bg-blue-600 text-white shadow-lg' 
+                  : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
             >
               <Briefcase size={16} />
@@ -74,8 +74,8 @@ function Navbar() {
               to="/skills"
               className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                 isActive('/skills') 
-                  ? 'bg-gray-800 text-white shadow-lg' 
-                  : 'text-gray-700 hover:bg-gray-100'
+                  ? 'bg-blue-600 text-white shadow-lg' 
+                  : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
             >
               <Code size={16} />
@@ -85,7 +85,7 @@ function Navbar() {
             <div className="relative">
               <button
                 onClick={() => setIsSoftSkillsOpen(!isSoftSkillsOpen)}
-                className="flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-gray-700 hover:bg-gray-100"
+                className="flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-gray-300 hover:bg-blue-600/20 hover:text-white"
               >
                 <Award size={16} />
                 <span>Soft Skills</span>
@@ -93,11 +93,11 @@ function Navbar() {
               </button>
               
               {isSoftSkillsOpen && (
-                <div className="absolute top-full mt-2 w-48 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-white/20 overflow-hidden">
+                <div className="absolute top-full mt-2 w-48 bg-slate-800/95 backdrop-blur-md rounded-xl shadow-xl border border-blue-500/20 overflow-hidden">
                   <div className="py-2">
                     <Link
                       to="/softskills/overview"
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 transition-colors"
+                      className="block px-4 py-2 text-sm text-gray-300 hover:bg-blue-600/20 hover:text-white transition-colors"
                       onClick={() => setIsSoftSkillsOpen(false)}
                     >
                       Overview
@@ -106,7 +106,7 @@ function Navbar() {
                       <Link
                         key={week}
                         to={`/softskills/week${week}`}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 transition-colors"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-blue-600/20 hover:text-white transition-colors"
                         onClick={() => setIsSoftSkillsOpen(false)}
                       >
                         Week {week}
@@ -121,8 +121,8 @@ function Navbar() {
               to="/contact"
               className={`flex items-center space-x-2 px-6 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                 isActive('/contact') 
-                  ? 'bg-gray-800 text-white shadow-lg' 
-                  : 'bg-gradient-to-r from-gray-700 to-gray-800 text-white hover:from-gray-800 hover:to-gray-900 shadow-lg'
+                  ? 'bg-blue-600 text-white shadow-lg' 
+                  : 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:from-blue-700 hover:to-indigo-700 shadow-lg'
               }`}
             >
               <MessageCircle size={16} />
@@ -133,7 +133,7 @@ function Navbar() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg transition-colors text-gray-700 hover:bg-gray-100"
+              className="p-2 rounded-lg transition-colors text-gray-300 hover:bg-blue-600/20 hover:text-white"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -143,12 +143,12 @@ function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-white/20">
+        <div className="md:hidden bg-slate-800/95 backdrop-blur-md border-t border-blue-500/20">
           <div className="px-4 py-4 space-y-2">
             <Link
               to="/"
               className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
-                isActive('/') ? 'bg-gray-800 text-white' : 'text-gray-700 hover:bg-gray-100'
+                isActive('/') ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -157,7 +157,7 @@ function Navbar() {
             <Link
               to="/journey"
               className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
-                isActive('/journey') ? 'bg-gray-800 text-white' : 'text-gray-700 hover:bg-gray-100'
+                isActive('/journey') ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -166,7 +166,7 @@ function Navbar() {
             <Link
               to="/projects"
               className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
-                isActive('/projects') ? 'bg-gray-800 text-white' : 'text-gray-700 hover:bg-gray-100'
+                isActive('/projects') ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -175,7 +175,7 @@ function Navbar() {
             <Link
               to="/skills"
               className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
-                isActive('/skills') ? 'bg-gray-800 text-white' : 'text-gray-700 hover:bg-gray-100'
+                isActive('/skills') ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -184,7 +184,7 @@ function Navbar() {
             <Link
               to="/contact"
               className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
-                isActive('/contact') ? 'bg-gray-800 text-white' : 'text-gray-700 hover:bg-gray-100'
+                isActive('/contact') ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-blue-600/20 hover:text-white'
               }`}
               onClick={() => setIsOpen(false)}
             >

@@ -56,7 +56,7 @@ function Footer() {
     },
     {
       name: 'Website',
-      href: 'https://agnix.netlify.app',
+      href: 'https://agxdev.vercel.app',
       icon: Globe,
       color: 'hover:text-indigo-600',
       bg: 'hover:bg-indigo-50'

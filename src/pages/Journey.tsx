@@ -57,7 +57,7 @@ function Journey() {
     },
     {
       title: "Continuous Learning",
-      description: "10 professional certifications and ongoing skill development in emerging technologies",
+      description: "10+ professional certifications and ongoing skill development in emerging technologies",
       icon: <TrendingUp className="w-8 h-8" />,
       gradient: "from-orange-500 to-pink-600"
     },
@@ -135,14 +135,14 @@ function Journey() {
               </p>
 
               <p className="mb-6">
-                With <strong>2+ years of development experience</strong>, I have successfully completed <strong>30 comprehensive projects </strong>
+                With <strong>2+ years of development experience</strong>, I have successfully completed <strong>30+ comprehensive projects </strong>
                 spanning full-stack web development, artificial intelligence, and machine learning applications. My technical expertise 
                 includes proficiency in <strong>Python, C++, Java, React.js, and Node.js</strong>, complemented by hands-on experience 
                 with modern AI/ML frameworks and cloud technologies.
               </p>
 
               <p className="mb-6">
-                I hold <strong>10 professional certifications</strong> in various technology domains and maintain a strong commitment to 
+                I hold <strong>10+ professional certifications</strong> in various technology domains and maintain a strong commitment to 
                 continuous learning and skill development. My approach combines theoretical knowledge with practical implementation, 
                 focusing on creating scalable, user-friendly solutions that address real-world challenges.
               </p>

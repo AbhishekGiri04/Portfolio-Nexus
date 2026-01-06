@@ -8,8 +8,8 @@ const skillCategories = {
     gradient: 'from-blue-500 to-cyan-600',
     skills: [
       { name: 'Python', level: 95 },
-      { name: 'C++', level: 80 },
-      { name: 'C', level: 85 },
+      { name: 'C', level: 95 },
+      { name: 'C++', level: 85 },
       { name: 'Java', level: 70 },
     ]
   },
@@ -22,7 +22,6 @@ const skillCategories = {
       { name: 'CSS', level: 85 },
       { name: 'JavaScript', level: 85 },
       { name: 'React.js', level: 80 },
-      { name: 'Vite.js', level: 75 },
       { name: 'Tailwind CSS', level: 80 },
     ]
   },
@@ -32,7 +31,8 @@ const skillCategories = {
     gradient: 'from-purple-500 to-indigo-600',
     skills: [
       { name: 'Node.js', level: 80 },
-      { name: 'Flask', level: 85 },
+      { name: 'Express.js', level: 80 },
+      { name: 'Flask', level: 80 },
       { name: 'FastAPI', level: 75 },
     ]
   },
@@ -42,8 +42,10 @@ const skillCategories = {
     gradient: 'from-orange-500 to-red-600',
     skills: [
       { name: 'MySQL', level: 90 },
+      { name: 'Oracle', level: 85 },
       { name: 'MongoDB', level: 80 },
-      { name: 'Firebase Firestore', level: 85 },
+      { name: 'Firebase Firestore', level: 80 },
+      { name: 'SQLite', level: 75 },
     ]
   },
   cloud: {
@@ -51,9 +53,11 @@ const skillCategories = {
     icon: <Cloud className="w-6 h-6" />,
     gradient: 'from-sky-500 to-blue-600',
     skills: [
+      { name: 'Vercel', level: 90 },
+      { name: 'Render', level: 90 },
+      { name: 'Netlify', level: 90 },
       { name: 'AWS', level: 75 },
       { name: 'Google Cloud Platform', level: 70 },
-      { name: 'Microsoft Azure', level: 65 },
     ]
   },
   machineLearning: {
@@ -63,10 +67,9 @@ const skillCategories = {
     skills: [
       { name: 'NumPy', level: 90 },
       { name: 'Pandas', level: 90 },
-      { name: 'Matplotlib', level: 85 },
-      { name: 'TensorFlow', level: 75 },
+      { name: 'TensorFlow', level: 85 },
+      { name: 'NLTK', level: 85 },
       { name: 'OpenCV', level: 70 },
-      { name: 'NLTK', level: 75 },
     ]
   }
 };

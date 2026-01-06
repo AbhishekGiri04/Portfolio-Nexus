@@ -26,7 +26,7 @@ A modern, interactive developer portfolio showcasing my journey as an AI & ML En
 ## 💡 What You'll Find
 Portfolio-Nexus is a comprehensive showcase featuring:
 
-- 🎯 **34 Professional Projects** across multiple domains
+- 🎯 **30+ Professional Projects** across multiple domains
 - 🏆 **10 Industry Certifications** from leading tech companies
 - 💼 **Professional Journey** and educational background
 - 🛠️ **Technical Skills** with interactive progress bars
@@ -40,7 +40,7 @@ Portfolio-Nexus is a comprehensive showcase featuring:
 ## 🚀 Features
 
 ✅  **Modern Design** with gradient backgrounds and animations  
-✅  **34 Featured Projects** spanning AI/ML, Web Dev, IoT, and more  
+✅  **30+ Featured Projects** spanning AI/ML, Web Dev, IoT, and more  
 ✅  **Interactive Skills Section** with animated progress bars  
 ✅  **Professional Certifications** with verification links  
 ✅  **Responsive Layout** optimized for all devices  
@@ -101,13 +101,13 @@ Portfolio-Nexus is a comprehensive showcase featuring:
 ```
 Portfolio-Nexus/
 ├── 📂 docs/                        # 📸 Portfolio screenshots
-│   ├── 📄 Home_Page.png            # 🏠 Landing page preview
-│   ├── 📄 Professional_Profile.png # 👤 Profile section
-│   ├── 📄 Professional_Development.png # 🛤️ Journey timeline
-│   ├── 📄 Project_Page.png         # 💼 Projects showcase
-│   ├── 📄 Skills_Page.png          # 🛠️ Skills & certifications
-│   ├── 📄 About_Me.png             # ℹ️ About section
-│   └── 📄 Contact_Page.png         # 📞 Contact information
+│   ├── 📄 WelcomePage.png          # 🎉 Welcome screen
+│   ├── 📄 HomePage.png             # 🏠 Landing page preview
+│   ├── 📄 JourneyPage.png          # 🛤️ Journey timeline
+│   ├── 📄 ProjectPage.png          # 💼 Projects showcase
+│   ├── 📄 SkillsPage.png           # 🛠️ Skills & certifications
+│   ├── 📄 SoftSkillsPage.png       # 🧠 Soft skills page
+│   └── 📄 Contact.png              # 📞 Contact information
 ├── 📂 public/                      # 🎨 Static assets
 │   ├── 📂 Certificates/            # 🏆 Certificate images (9 files)
 │   │   ├── 📄 Certificate1.png     # 🎓 Google Analytics
@@ -120,20 +120,25 @@ Portfolio-Nexus/
 │   │   ├── 📄 Certificate8.png     # ☁️ Google Cloud
 │   │   └── 📄 Certificate9.png     # 📚 Data Mining NPTEL
 │   ├── 📂 images/                  # 🖼️ Profile photos
+│   │   ├── 📄 AG.png               # 📸 Profile logo
 │   │   ├── 📄 Photo1.jpeg          # 📸 Professional photo 1
 │   │   ├── 📄 Photo2.jpeg          # 📸 Professional photo 2
 │   │   └── 📄 Photo3.jpeg          # 📸 Professional photo 3
-│   ├── 📄 _redirects               # 🔄 Netlify SPA routing
 │   └── 📄 AbhishekGiriResume.pdf   # 📄 Professional resume
 ├── 📂 src/                         # 💻 Source code
 │   ├── 📂 components/              # 🧩 Reusable components
 │   │   ├── 📄 Navbar.tsx           # 🔝 Navigation with icons
 │   │   ├── 📄 Footer.tsx           # 🔻 Professional footer
-│   │   └── 📄 LoadingPage.tsx      # ⏳ Loading animation
+│   │   └── 📄 WelcomeScreen.tsx    # 🎉 Welcome animation
 │   ├── 📂 pages/                   # 📄 Main application pages
 │   │   ├── 📂 week/                # 📚 Soft skills weekly content
 │   │   │   ├── 📄 week1.tsx        # 📝 Week 1 content
-│   │   │   └── 📄 week[2-7].tsx    # 📝 Weekly assignments
+│   │   │   ├── 📄 week2.tsx        # 📝 Week 2 content
+│   │   │   ├── 📄 week3.tsx        # 📝 Week 3 content
+│   │   │   ├── 📄 week4.tsx        # 📝 Week 4 content
+│   │   │   ├── 📄 week5.tsx        # 📝 Week 5 content
+│   │   │   ├── 📄 week6.tsx        # 📝 Week 6 content
+│   │   │   └── 📄 week7.tsx        # 📝 Week 7 content
 │   │   ├── 📄 Home.tsx             # 🏠 Hero & stats section
 │   │   ├── 📄 Journey.tsx          # 🛤️ Professional timeline
 │   │   ├── 📄 Projects.tsx         # 💼 34 project showcase
@@ -146,18 +151,20 @@ Portfolio-Nexus/
 │   ├── 📄 App.css                  # 🎨 Component styles
 │   ├── 📄 index.css                # 🎨 Global Tailwind styles
 │   └── 📄 vite-env.d.ts            # 🔧 TypeScript definitions
+├── 📄 .env                         # 🔐 Environment variables
+├── 📄 .env.example                 # 📋 Environment template
+├── 📄 .gitignore                   # 🚫 Git ignore rules
 ├── 📄 eslint.config.js             # 🔍 ESLint configuration
 ├── 📄 index.html                   # 🌐 HTML entry point
-├── 📄 .gitignore                   # 🚫 Git ignore rules
-├── 📄 netlify.toml                 # 🌐 Netlify deployment config
 ├── 📄 package.json                 # 📦 Dependencies & scripts
 ├── 📄 package-lock.json            # 🔒 Dependency lock file
 ├── 📄 postcss.config.js            # 🎨 PostCSS configuration
-├── 📄 vite.config.ts               # ⚙️ Vite build configuration
 ├── 📄 tailwind.config.js           # 🎨 Tailwind CSS config
 ├── 📄 tsconfig.json                # 🔧 TypeScript configuration
 ├── 📄 tsconfig.app.json            # 🔧 TypeScript app config
 ├── 📄 tsconfig.node.json           # 🔧 TypeScript node config
+├── 📄 vercel.json                  # 🚀 Vercel deployment config
+├── 📄 vite.config.ts               # ⚙️ Vite build configuration
 └── 📄 README.md                    # 📖 Project documentation
 ```
 <br>
@@ -166,15 +173,26 @@ Portfolio-Nexus/
 
 ## 📸 Portfolio Screenshots
 
-| 📍 Page / Section           | 📸 Preview                                                 |
-|:----------------------------|:-----------------------------------------------------------|
-| Home Page                   | ![Home Page](docs/Home_Page.png)                          |
-| About Me Section            | ![About Me](docs/About_Me.png)                            |
-| Professional Profile        | ![Professional Profile](docs/Professional_Profile.png)    |
-| Skills & Certifications     | ![Skills Page](docs/Skills_Page.png)                      |
-| Professional Development    | ![Journey Timeline](docs/Professional_Development.png)    |
-| Projects Showcase           | ![Projects Page](docs/Project_Page.png)                   |
-| Contact Information         | ![Contact Page](docs/Contact_Page.png)                    |
+### 🎉 Welcome Screen
+![Welcome Page](docs/WelcomePage.png)
+
+### 🏠 Home Page
+![Home Page](docs/HomePage.png)
+
+### 🛤️ Professional Journey
+![Journey Page](docs/JourneyPage.png)
+
+### 💼 Projects Showcase
+![Projects Page](docs/ProjectPage.png)
+
+### 🛠️ Skills & Certifications
+![Skills Page](docs/SkillsPage.png)
+
+### 🧠 Soft Skills
+![Soft Skills Page](docs/SoftSkillsPage.png)
+
+### 📞 Contact Information
+![Contact Page](docs/Contact.png)
 
 <br>
 
@@ -229,14 +247,14 @@ npm run build
 npm run preview
 ```
 
-### 🌐 Deploy to Vercel
+### 🌐 Deploy
 
-1. **Connect GitHub Repository** to Vercel
-2. **Build Settings:**
-   - Build command: `npm run build`
-   - Output directory: `dist`
-3. **Environment Variables:** Add your `.env` variables in Vercel dashboard
-4. **Deploy!** - Automatic deployments on every push
+**Vercel Deployment:**
+1. Connect GitHub Repository to Vercel
+2. Build command: `npm run build`
+3. Output directory: `dist`
+4. Add environment variables from `.env.example`
+5. Deploy automatically on every push
 
 <br>
 
@@ -244,11 +262,14 @@ npm run preview
 
 ## 📖 Core Components
 
+* **WelcomeScreen.tsx** — Animated welcome screen with loading effect
 * **Navbar.tsx** — Responsive navigation with icons and animations
 * **Home.tsx** — Hero section with professional introduction
 * **Journey.tsx** — Educational background and career timeline
-* **Projects.tsx** — Showcase of 25 professional projects
-* **Skills.tsx** — Interactive skills with certifications
+* **Projects.tsx** — Showcase of 34 professional projects
+* **Skills.tsx** — Interactive skills with 10 certifications
+* **SoftSkills.tsx** — Soft skills overview and weekly content
+* **Contact.tsx** — Contact form with social links
 * **Footer.tsx** — Professional links and contact information
 
 <br>
@@ -276,7 +297,7 @@ npm run preview
 
 ## 📊 Portfolio Metrics
 
-- **34 Projects** — Comprehensive project portfolio
+- **31 Projects** — Comprehensive project portfolio
 - **10 Certifications** — Industry-recognized credentials
 - **6 Tech Categories** — Diverse technical expertise
 - **2+ Years Experience** — Continuous development journey
@@ -330,6 +351,6 @@ npm run preview
 
 <div align="center">
 
-**© 2025 Abhishek Giri. All Rights Reserved.**
+**© 2026 Abhishek Giri. All Rights Reserved.**
 
 </div>

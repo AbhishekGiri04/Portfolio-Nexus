@@ -35,7 +35,7 @@ function Home() {
   const stats = [
     { 
       label: "Projects", 
-      value: "30", 
+      value: "31", 
       icon: <FolderOpen className="w-8 h-8" />, 
       gradient: "from-blue-500 to-cyan-600",
       bgPattern: "from-blue-50 to-cyan-50",
@@ -65,11 +65,11 @@ function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Premium Background */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-gray-900 to-black"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900"></div>
           <div className="absolute inset-0">
-            <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 rounded-full blur-3xl animate-pulse"></div>
-            <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-gradient-to-r from-pink-500/5 to-orange-500/5 rounded-full blur-3xl animate-pulse delay-2000"></div>
+            <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gradient-to-r from-indigo-500/10 to-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-gradient-to-r from-blue-500/5 to-indigo-500/5 rounded-full blur-3xl animate-pulse delay-2000"></div>
           </div>
           {/* Grid Pattern */}
           <div className="absolute inset-0 opacity-5">
@@ -96,7 +96,7 @@ function Home() {
               className="text-6xl md:text-8xl font-bold mb-6 tracking-tight"
             >
               <span className="text-white">Abhishek </span>
-              <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-blue-400 bg-clip-text text-transparent">
                 Giri
               </span>
             </motion.h1>
@@ -113,7 +113,7 @@ function Home() {
               </h2>
               <div className="flex items-center justify-center gap-3 mb-6">
                 <div className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
-                  <MapPin className="w-4 h-4 text-emerald-400" />
+                  <MapPin className="w-4 h-4 text-blue-400" />
                   <span className="text-white/90 text-sm font-medium">Haridwar, Uttarakhand, India</span>
                 </div>
               </div>
@@ -126,7 +126,7 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="text-xl md:text-2xl text-gray-400 max-w-5xl mx-auto leading-relaxed mb-12 font-light"
             >
-              Pre-final year <span className="text-white font-medium">B.Tech CSE (AI & ML)</span> student at Graphic Era Hill University with <span className="text-emerald-400 font-medium">2+ years of experience</span> in Python, SQL, DBMS, web development, IoT, and cloud platforms. Skilled in building <span className="text-white font-medium">scalable full-stack applications</span> and intelligent AI/ML solutions using deep learning and automation. Results-driven problem solver passionate about creating <span className="text-emerald-400 font-medium">impactful, user-centric engineering solutions</span>.
+              Pre-final year <span className="text-white font-medium">B.Tech CSE (AI & ML)</span> student at Graphic Era Hill University with <span className="text-blue-400 font-medium">2+ years of experience</span> in Python, SQL, DBMS, web development, IoT, and cloud platforms. Skilled in building <span className="text-white font-medium">scalable full-stack applications</span> and intelligent AI/ML solutions using deep learning and automation. Results-driven problem solver passionate about creating <span className="text-blue-400 font-medium">impactful, user-centric engineering solutions</span>.
             </motion.p>
             
             {/* CTA Buttons */}
@@ -142,7 +142,7 @@ function Home() {
               >
                 <Link
                   to="/projects"
-                  className="group px-10 py-4 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white rounded-2xl font-semibold shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300 flex items-center justify-center gap-3"
+                  className="group px-10 py-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-2xl font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 flex items-center justify-center gap-3"
                 >
                   <span>Explore My Work</span>
                   <motion.div
