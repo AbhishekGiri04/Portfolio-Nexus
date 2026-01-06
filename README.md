@@ -141,7 +141,7 @@ Portfolio-Nexus/
 │   │   │   └── 📄 week7.tsx        # 📝 Week 7 content
 │   │   ├── 📄 Home.tsx             # 🏠 Hero & stats section
 │   │   ├── 📄 Journey.tsx          # 🛤️ Professional timeline
-│   │   ├── 📄 Projects.tsx         # 💼 34 project showcase
+│   │   ├── 📄 Projects.tsx         # 💼 31 project showcase
 │   │   ├── 📄 Skills.tsx           # 🛠️ Skills & 10 certificates
 │   │   ├── 📄 Contact.tsx          # 📞 Contact form
 │   │   ├── 📄 SoftSkills.tsx       # 🧠 Soft skills overview
@@ -173,6 +173,8 @@ Portfolio-Nexus/
 
 ## 📸 Portfolio Screenshots
 
+<div align="center">
+
 ### 🎉 Welcome Screen
 ![Welcome Page](docs/WelcomePage.png)
 
@@ -193,6 +195,8 @@ Portfolio-Nexus/
 
 ### 📞 Contact Information
 ![Contact Page](docs/Contact.png)
+
+</div>
 
 <br>
 
@@ -266,7 +270,7 @@ npm run preview
 * **Navbar.tsx** — Responsive navigation with icons and animations
 * **Home.tsx** — Hero section with professional introduction
 * **Journey.tsx** — Educational background and career timeline
-* **Projects.tsx** — Showcase of 34 professional projects
+* **Projects.tsx** — Showcase of 31 professional projects
 * **Skills.tsx** — Interactive skills with 10 certifications
 * **SoftSkills.tsx** — Soft skills overview and weekly content
 * **Contact.tsx** — Contact form with social links
