@@ -229,13 +229,13 @@ npm run build
 npm run preview
 ```
 
-### 🌐 Deploy to Netlify
+### 🌐 Deploy to Vercel
 
-1. **Connect GitHub Repository** to Netlify
+1. **Connect GitHub Repository** to Vercel
 2. **Build Settings:**
    - Build command: `npm run build`
-   - Publish directory: `dist`
-3. **Environment Variables:** Add your `.env` variables in Netlify dashboard
+   - Output directory: `dist`
+3. **Environment Variables:** Add your `.env` variables in Vercel dashboard
 4. **Deploy!** - Automatic deployments on every push
 
 <br>
