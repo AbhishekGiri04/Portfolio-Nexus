@@ -156,6 +156,7 @@ Portfolio-Nexus/
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
 ├── 📄 eslint.config.js             # 🔍 ESLint configuration
 ├── 📄 index.html                   # 🌐 HTML entry point
+├── 📄 LICENSE                      # 📜 MIT License file
 ├── 📄 package.json                 # 📦 Dependencies & scripts
 ├── 📄 package-lock.json            # 🔒 Dependency lock file
 ├── 📄 postcss.config.js            # 🎨 PostCSS configuration
@@ -345,6 +346,18 @@ npm run preview
 <br/>
 
 ---
+
+<div align="center">
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+</div>
+
+---
+
+<div align="center">
 
 **🚀 Built with ❤️ and Modern Web Technologies**  
 *Showcasing Innovation Through Code*
