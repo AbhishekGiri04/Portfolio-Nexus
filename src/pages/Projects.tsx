@@ -3,6 +3,23 @@ import { ExternalLink, Github, Star, ArrowUpRight, Sparkles, Code2, Brain, Gamep
 
 const projects = [
   {
+    id: 34,
+    title: 'RationSaathi — Blockchain-Powered PDS Distribution System',
+    subtitle: 'Blockchain PDS Platform',
+    description: 'Ration Saathi is a blockchain-powered, offline-first ration distribution system ensuring transparent, fraud-free PDS delivery in rural India using biometrics, secure hash-ledgers, and smart sync.',
+    longDescription: 'Revolutionary blockchain-based public distribution system designed for rural India with offline-first architecture, biometric authentication, and transparent ledger system.',
+    image: 'https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2025/07/Mera-Ration-2.0.jpg?fit=1200%2C675&ssl=1',
+    technologies: ['Node.js', 'JavaScript', 'Python', 'HTML', 'Dart', 'JWT', 'CMake', 'TypeScript', 'MongoDB', 'Xcode', 'C++', 'Blockchain', 'Express.js', 'Android Studio', 'Flutter'],
+    github: 'https://github.com/AbhishekGiri04/RationSaathi',
+    demo: 'https://rationsaathi.vercel.app',
+    category: 'Mobile Application',
+    status: 'Live',
+    featured: true,
+    icon: <Target className="w-6 h-6" />,
+    gradient: 'from-orange-500 to-red-600',
+    metrics: { blockchain: 'Secure', offline: 'Enabled', transparency: '100%' }
+  },
+  {
     id: 3,
     title: 'CodeSphere — Real-Time Collaborative Code Editor Platform',
     subtitle: 'Modern Collaborative Coding Platform',
@@ -35,6 +52,23 @@ const projects = [
     icon: <Target className="w-6 h-6" />,
     gradient: 'from-blue-500 to-cyan-600',
     metrics: { sensors: '4+', accuracy: '98%', response: '<2s' }
+  },
+  {
+    id: 33,
+    title: 'SATYA-DRISHTI — AI-Powered Content Moderation for Digital India',
+    subtitle: 'AI Content Moderation Platform',
+    description: 'SATYA-DRISHTI : AI content moderation for Digital India: 87% accuracy, 12 models, 9 languages, 10-15s analysis. Detects hate speech, NSFW, fake news. Court-ready evidence with IPC/IT Act mapping. Built for NITI Aayog',
+    longDescription: 'Advanced AI-powered content moderation system designed for Digital India initiative with multi-language support and legal compliance.',
+    image: 'https://chekkee.com/wp-content/uploads/2024/03/How-AI-Moderation-is-Transforming-Social-Media-Content-Management.webp',
+    technologies: ['React', 'JavaScript', 'CSS', 'Python', 'OpenCV', 'MongoDB', 'PyTorch', 'FastAPI', 'HuggingFace', 'EasyOCR'],
+    github: 'https://github.com/AbhishekGiri04/SATYA-DRISHTI',
+    demo: 'https://satyadrishti-dev.vercel.app',
+    category: 'Machine Learning',
+    status: 'Live',
+    featured: true,
+    icon: <Brain className="w-6 h-6" />,
+    gradient: 'from-red-500 to-pink-600',
+    metrics: { accuracy: '87%', languages: '9+', models: '12+' }
   },
   {
     id: 4,
@@ -86,23 +120,6 @@ const projects = [
     icon: <Code2 className="w-6 h-6" />,
     gradient: 'from-blue-500 to-cyan-600',
     metrics: { accuracy: '100%', users: '500+', performance: '99%' }
-  },
-  {
-    id: 33,
-    title: 'SATYA-DRISHTI — AI-Powered Content Moderation for Digital India',
-    subtitle: 'AI Content Moderation Platform',
-    description: 'SATYA-DRISHTI : AI content moderation for Digital India: 87% accuracy, 12 models, 9 languages, 10-15s analysis. Detects hate speech, NSFW, fake news. Court-ready evidence with IPC/IT Act mapping. Built for NITI Aayog',
-    longDescription: 'Advanced AI-powered content moderation system designed for Digital India initiative with multi-language support and legal compliance.',
-    image: 'https://chekkee.com/wp-content/uploads/2024/03/How-AI-Moderation-is-Transforming-Social-Media-Content-Management.webp',
-    technologies: ['React', 'JavaScript', 'CSS', 'Python', 'OpenCV', 'MongoDB', 'PyTorch', 'FastAPI', 'HuggingFace', 'EasyOCR'],
-    github: 'https://github.com/AbhishekGiri04/SATYA-DRISHTI',
-    demo: 'https://satyadrishti-dev.vercel.app',
-    category: 'Machine Learning',
-    status: 'Live',
-    featured: false,
-    icon: <Brain className="w-6 h-6" />,
-    gradient: 'from-red-500 to-pink-600',
-    metrics: { accuracy: '87%', languages: '9+', models: '12+' }
   },
   {
     id: 2,
@@ -442,7 +459,7 @@ const projects = [
     featured: false,
     icon: <Target className="w-6 h-6" />,
     gradient: 'from-indigo-500 to-purple-600',
-    metrics: { projects: '31+', technologies: '15+', experience: '2+ years' }
+    metrics: { projects: '32+', technologies: '15+', experience: '2+ years' }
   },
   {
     id: 26,

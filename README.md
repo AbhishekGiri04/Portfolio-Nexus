@@ -302,7 +302,7 @@ npm run preview
 
 ## 📊 Portfolio Metrics
 
-- **31 Projects** — Comprehensive project portfolio
+- **32 Projects** — Comprehensive project portfolio
 - **10 Certifications** — Industry-recognized credentials
 - **6 Tech Categories** — Diverse technical expertise
 - **2+ Years Experience** — Continuous development journey

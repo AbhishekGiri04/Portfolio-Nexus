@@ -35,7 +35,7 @@ function Home() {
   const stats = [
     { 
       label: "Projects", 
-      value: "31", 
+      value: "32", 
       icon: <FolderOpen className="w-8 h-8" />, 
       gradient: "from-blue-500 to-cyan-600",
       bgPattern: "from-blue-50 to-cyan-50",
