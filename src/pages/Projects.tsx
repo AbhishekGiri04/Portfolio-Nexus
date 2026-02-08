@@ -459,7 +459,7 @@ const projects = [
     featured: false,
     icon: <Target className="w-6 h-6" />,
     gradient: 'from-indigo-500 to-purple-600',
-    metrics: { projects: '32+', technologies: '15+', experience: '2+ years' }
+    metrics: { projects: '33+', technologies: '15+', experience: '2+ years' }
   },
   {
     id: 26,
@@ -545,6 +545,23 @@ const projects = [
     icon: <Target className="w-6 h-6" />,
     gradient: 'from-pink-500 to-rose-600',
     metrics: { products: '1K+', users: '500+', orders: 'Real-time' }
+  },
+  {
+    id: 35,
+    title: 'Agentic Honeypot — AI-Powered Scam Detection System',
+    subtitle: 'AI-Powered Cybersecurity Platform',
+    description: 'DECOY.ONE : AI honeypot that detects scams, engages scammers with human-like conversations, extracts intelligence (UPI, phone, links), and reports to authorities automatically.',
+    longDescription: 'An intelligent AI-powered honeypot system built for GUVI Hackathon that detects scam messages, engages scammers with human-like conversations, and extracts valuable intelligence automatically. Features ML detection (97% accuracy), Ollama LLM integration, MongoDB storage, and real-time intelligence extraction.',
+    image: 'https://socradar.io/wp-content/uploads/2024/10/the-role-of-honeypots-in-cybersecurity.jpg.webp',
+    technologies: ['Python', 'Shell', 'Redis', 'Flask', 'MongoDB', 'Ollama'],
+    github: 'https://github.com/AbhishekGiri04/DECOY.ONE',
+    demo: 'https://decoy-one.onrender.com',
+    category: 'Machine Learning',
+    status: 'Live',
+    featured: false,
+    icon: <Brain className="w-6 h-6" />,
+    gradient: 'from-red-600 to-orange-600',
+    metrics: { accuracy: '97%', patterns: '42+', detection: 'Real-time' }
   }
 ];
 
