@@ -442,7 +442,7 @@ const projects = [
     featured: false,
     icon: <Target className="w-6 h-6" />,
     gradient: 'from-slate-500 to-gray-600',
-    metrics: { visitors: '1K+', projects: '25+', skills: '20+' }
+    metrics: { visitors: '1K+', projects: '33+', skills: '20+' }
   },
   {
     id: 25,
