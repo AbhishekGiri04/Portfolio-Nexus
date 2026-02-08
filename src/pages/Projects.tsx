@@ -556,7 +556,7 @@ const projects = [
     technologies: ['Python', 'Shell', 'Redis', 'Flask', 'MongoDB', 'Ollama'],
     github: 'https://github.com/AbhishekGiri04/DECOY.ONE',
     demo: 'https://decoy-one.onrender.com',
-    category: 'Machine Learning',
+    category: 'Cybersecurity',
     status: 'Live',
     featured: false,
     icon: <Brain className="w-6 h-6" />,
