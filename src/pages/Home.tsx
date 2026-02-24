@@ -126,7 +126,7 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="text-xl md:text-2xl text-gray-400 max-w-5xl mx-auto leading-relaxed mb-12 font-light"
             >
-              Pre-final year <span className="text-white font-medium">B.Tech CSE (AI & ML)</span> student at Graphic Era Hill University with <span className="text-blue-400 font-medium">2+ years of experience</span> in Python, SQL, DBMS, web development, IoT, and cloud platforms. Skilled in building <span className="text-white font-medium">scalable full-stack applications</span> and intelligent AI/ML solutions using deep learning and automation. Results-driven problem solver passionate about creating <span className="text-blue-400 font-medium">impactful, user-centric engineering solutions</span>.
+              Pre-final year <span className="text-white font-medium">B.Tech CSE (AI & ML)</span> student at Graphic Era Hill University with over two years of hands-on experience in scalable full-stack engineering and AI-driven system development. Proficient in Python, SQL, DBMS, cloud technologies, and modern web architectures, with proven experience building <span className="text-white font-medium">production-grade applications, secure APIs, and intelligent ML solutions</span> powered by deep learning and automation. Results-oriented engineer focused on delivering <span className="text-blue-400 font-medium">high-performance, real-world systems with measurable impact at scale</span>.
             </motion.p>
             
             {/* CTA Buttons */}
@@ -324,7 +324,7 @@ function Home() {
             <h2 className="text-4xl font-bold text-gray-900 mb-6">About Me</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              AI & ML Engineering student passionate about leveraging cutting-edge technologies to transform complex ideas into intelligent, real-world solutions. Skilled in machine learning algorithms, data analysis, and full-stack development, delivering end-to-end solutions from concept to deployment. Driven by innovation and impact, creating scalable, user-centric applications that seamlessly bridge theory and practical implementation.
+              AI & ML Engineering student building intelligent, scalable solutions through machine learning and full-stack development. Strong in data-driven systems, automation, and end-to-end application deployment. Focused on creating high-performance, real-world technology with measurable impact.
             </p>
           </motion.div>
 
