@@ -271,7 +271,7 @@ npm run preview
 * **Navbar.tsx** — Responsive navigation with icons and animations
 * **Home.tsx** — Hero section with professional introduction
 * **Journey.tsx** — Educational background and career timeline
-* **Projects.tsx** — Showcase of 31 professional projects
+* **Projects.tsx** — Showcase of 33 professional projects
 * **Skills.tsx** — Interactive skills with 10 certifications
 * **SoftSkills.tsx** — Soft skills overview and weekly content
 * **Contact.tsx** — Contact form with social links
