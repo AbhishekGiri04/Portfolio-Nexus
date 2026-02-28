@@ -141,7 +141,7 @@ Portfolio-Nexus/
 │   │   │   └── 📄 week7.tsx        # 📝 Week 7 content
 │   │   ├── 📄 Home.tsx             # 🏠 Hero & stats section
 │   │   ├── 📄 Journey.tsx          # 🛤️ Professional timeline
-│   │   ├── 📄 Projects.tsx         # 💼 31 project showcase
+│   │   ├── 📄 Projects.tsx         # 💼 33 project showcase
 │   │   ├── 📄 Skills.tsx           # 🛠️ Skills & 10 certificates
 │   │   ├── 📄 Contact.tsx          # 📞 Contact form
 │   │   ├── 📄 SoftSkills.tsx       # 🧠 Soft skills overview
